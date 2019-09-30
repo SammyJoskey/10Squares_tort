@@ -1,0 +1,55 @@
+.game-field {
+  background-color: orange;
+  min-height: 10vh;
+  max-height: 250px;
+  line-height: 10vh;
+}
+
+.target {
+  background-color: green;
+  color: white;
+  font-size: 24pt;
+  text-align: center;
+}
+
+.miss {
+  background-color: red;
+}
+
+.grid-wrapper {
+	display: grid;
+    grid-template-columns: repeat(6, 50px);
+    grid-template-columns: repeat(6, minmax(50px, 250px));
+    grid-gap: 4px;
+}
+
+body {
+	background-color: antiquewhite;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 20px;
+	color: black;
+}
+
+h2 {
+	padding-top: 80px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+
+#start {
+	margin-top: 20px;
+	margin-left: 15px;
+	font-weight: bold;
+	padding-left: 28px;
+	padding-right: 28px;
+}
+
