@@ -23,10 +23,6 @@
     grid-gap: 4px;
 }
 
-body {
-	background-color: antiquewhite;
-}
-
 h1 {
 	text-align: center;
 	margin-top: 20px;
@@ -46,6 +42,7 @@ h3 {
 
 
 #start {
+	background: white;
 	margin-top: 20px;
 	margin-left: 15px;
 	font-weight: bold;
