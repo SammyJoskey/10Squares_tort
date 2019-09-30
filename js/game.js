@@ -22,7 +22,7 @@ function endGame() {
   $(".grid-wrapper").hide();
   let totalPlayedMillis = getTimestamp() - firstHitTime;
   let totalPlayedSeconds = Number(totalPlayedMillis / 1000).toPrecision(3);
-  let totalScore = Math.round((10000 / totalPlayedSeconds) - (fails * 100));
+  let totalScore = Math.round((10) - (fails * 1));
 
   $("#total-time-played").text(totalPlayedSeconds);
   $("#total-fails").text(fails);
